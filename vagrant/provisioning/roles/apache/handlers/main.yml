@@ -11,3 +11,9 @@
       name=httpd
       state=restarted
       enabled=yes
+
+  - name: restart apache
+    service: >
+      name=httpd
+      state=restarted
+      enabled=yes
